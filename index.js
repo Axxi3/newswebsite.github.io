@@ -12,7 +12,9 @@ async function fetchnews(query){
    binddata(data.articles)
 }
  
-function binddata(articles) { 
+function binddata(articles) {   
+   console.log(articles)  
+   
    const mainholder=document.getElementById("cardskabaap")  
    const template=document.getElementById("card")  
    mainholder.innerHTML=""
